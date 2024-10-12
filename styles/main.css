@@ -191,6 +191,11 @@ table {
 
 .navbar {
   margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 300;
 }
 
 .btn {
@@ -3861,6 +3866,29 @@ header .navbar-brand img {
   letter-spacing: 1.5px;
 }
 
+.dropdown-menu{
+  font-family: 'Cousine', monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  color: #ffffff;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.dropdown-menu li a{
+  color: #ffffff !important;
+  background-color: black;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #901526;
+}
+
+
+
 @media (min-width: 992px) {
   .navbar-default .navbar-nav > li > a {
     margin: 0 4px;
@@ -3949,7 +3977,7 @@ header .navbar-brand img {
 @media only screen and (max-width: 767px) {
   .navbar-default .navbar-collapse {
     background-color: rgba(10, 10, 10, 0.9);
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -4943,12 +4971,13 @@ img {
 }
 
 .bg-header.news {
-  background: url("../images/demo/multi-pages/news/bg.jpg") no-repeat center;
+  background: url("../images/airsound_background.jpg") no-repeat center;
   background-size: cover !important;
 }
 
 .bg-header.news.dark {
-  background: url("../images/demo/multi-pages/dark-version/news/bg.jpg") no-repeat center;
+  background: url("../images/airsound_background.jpg") no-repeat center;
+  height: 50vh;
 }
 
 .bg-header.news.header-slider {
@@ -4956,7 +4985,7 @@ img {
 }
 
 .bg-header.contact {
-  background: url("../images/demo/multi-pages/contact/bg.jpg") no-repeat center;
+  background: url("../images/airsound_background.jpg") no-repeat center;
   background-size: cover !important;
 }
 
