@@ -2317,7 +2317,7 @@ h2.title:after {
   font-weight: 500;
   padding: 19px 35px 28px 35px;
   text-align: center;
-  text-align: left;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -2357,18 +2357,18 @@ h2.title:after {
 
 @media (min-width: 768px) {
   .upcomming-events-list li .price {
-    max-width: 130px;
+    max-width: 110px;
   }
 }
 
 @media (min-width: 1600px) {
   .upcomming-events-list li .price {
-    width: 130px;
+    width: 110px;
   }
 }
 
 .upcomming-events-list li .price span {
-  font-size: 28px;
+  font-size: 16px;
   margin-top: 8px;
   font-weight: 700;
   font-family: "cousine", monospace;
@@ -2381,6 +2381,7 @@ h2.title:after {
 @media (min-width: 768px) {
   .upcomming-events-list li .buy {
     text-align: left;
+    margin-left: 40px;
   }
 }
 
@@ -2427,6 +2428,7 @@ h2.title:after {
   font-size: 12px;
   font-family: 'Cousine', monospace;
   font-weight: 500;
+
 }
 
 .upcomming-events-list-title {
@@ -4950,7 +4952,8 @@ img {
 }
 
 .bg-header.tour-dates.dark {
-  background: url("../images/demo/multi-pages/dark-version/tour-dates/bg.jpg") no-repeat center;
+  background: url("../images/demo/multi-pages/dark-version/tour-dates/bg.jpg") no-repeat 60% 60%;
+  height: 50vh;
 }
 
 .bg-header.tour-dates.header-slider {
@@ -5126,4 +5129,8 @@ img {
 
 .social li a img:hover{
  filter: invert(80%) sepia(42%) saturate(7499%) hue-rotate(354deg) brightness(70%) contrast(98%);
+}
+
+.dropdown-menu{
+ padding: 3px;
 }
