@@ -3348,7 +3348,7 @@ p.date {
 }
 
 .section.contact {
-  background: linear-gradient(to right, rgba(6, 6, 6, 0.996), rgba(0, 0, 0, 0.581)), url("../images/CONTACT_BACKGROUND.png");
+  background-color: #0e0e0e;
   background-position: center;
   background-size: cover;
 }
@@ -5133,4 +5133,38 @@ img {
 
 .dropdown-menu{
  padding: 3px;
+}
+
+
+
+form{
+  width: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  border-bottom: 1px solid #ccc; /* Gray border */
+  font-family: 'Cousine', monospace;
+  color: white;
+  outline: none;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #0f0f0f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  font-family: 'Cousine', monospace;
+}
+
+#message{
+  margin-top: 8px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
 }
