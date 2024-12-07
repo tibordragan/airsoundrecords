@@ -25,7 +25,7 @@ setInterval(() => {
 // Accessing All the carousel Items
  Array.from(carouselItems2).forEach((item,index) => {
 
-   if(b+3 < carouselItems2.length){
+   if(b < carouselItems2.length){
     item.style.transform = `translateX(${b*100}%)`
 
    }
